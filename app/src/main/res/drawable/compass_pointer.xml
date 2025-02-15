@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:height="57dp"
+    android:width="50dp"
+    android:viewportWidth="50"
+    android:viewportHeight="57">
+    <path
+        android:fillColor="@drawable/_compass_pointer__0_res_0x7f080008"
+        android:pathData="M24.948,57C38.726,57 49.896,45.835 49.896,32.063C49.896,26.457 47.75,22 44.75,17C41.75,12 30.716,0 25,0C19.284,0 7.784,12.294 5.142,16.897C2.5,21.5 0,26.357 0,32.063C0,45.835 11.17,57 24.948,57Z"
+        android:strokeColor="#00000000"
+        android:strokeWidth="1"
+        android:fillType="evenOdd"/>
+    <path
+        android:fillColor="#252525"
+        android:pathData="M7.941,32.063a17.007,17 0,1 0,34.014 0a17.007,17 0,1 0,-34.014 0z"
+        android:strokeColor="#00000000"
+        android:strokeWidth="1"
+        android:fillAlpha="0.1976"
+        android:fillType="evenOdd"/>
+</vector>

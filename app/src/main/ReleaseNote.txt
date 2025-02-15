@@ -1,0 +1,1334 @@
+版本号: v1.7.35-alpha
+发布时间: 2024-08-30 10:04
+版本更新:
+1. 重置Tbox网络接口
+2. 新增乌兹别克语枚举值
+
+版本号: v1.7.34-alpha
+发布时间: 2024-08-07 15:39
+版本更新:
+1. 增加网速显示SDK
+2. 支持车窗锁信号
+
+版本号: v1.7.33-alpha
+发布时间: 2024-08-07 10:51
+版本更新:
+1. 新增PHEV差速锁状态值
+2. 修改默认使能为true，并对引起服务崩溃的位置判空
+3. 新增中控通知仪表切换壁纸接口notifyClusterWallpaperChanged
+
+版本号: v1.7.32-alpha
+发布时间: 2024-07-26 15:18
+版本更新:
+1. T1K_INT:为音频信号添加注释
+2. 为车外灯添加接口
+
+版本号: v1.7.31-alpha
+发布时间: 2024-07-11 21:02
+版本更新:
+1. T1N_INT:注释属性对应的T1N信号
+2. 支持系统设置依赖的两个信号
+
+版本号: v1.7.30-alpha
+发布时间: 2024-07-09 16:46
+版本更新:
+1. T1N_INT:支持新添加的天窗信号
+2. T1P:支持驻车空调信号
+
+版本号: v1.7.29-alpha
+发布时间: 2024-07-05 18:02
+版本更新:
+支持拖车模式新添加的信号
+
+版本号: v1.7.28-alpha
+发布时间: 2024-07-03 17:44
+版本更新:
+1. 新增中控设置仪表字体样式接口void setClusterFont(int style);
+2. 新增中控获取仪表字体样式接口int getClusterFont();
+3. 新增注册仪表字体样式改变回调接口void registerClusterFontCallback(IClusterFontCallback callback);
+
+版本号: v1.7.27-alpha
+发布时间: 2024-06-29 17:16
+版本更新:
+支持坦克调头信号
+
+版本号: v1.7.26-alpha
+发布时间: 2024-06-28 15:28
+版本更新:
+1. 新增仪表通知中控主题切换完毕注册回调接口registerClusterSwitchThemeCompleteCallback
+2. 新增注册监听时间制式变化回调接口registerTimeFormatChangedCallback
+
+版本号: v1.7.25-alpha
+发布时间: 2024-06-24 13:33
+版本更新:
+添加四门解锁信号
+
+版本号: v1.7.24-alpha
+发布时间: 2024-06-15 15:09
+版本更新:
+支持CR输入的几个灯光信号
+
+版本号: v1.7.23-alpha
+发布时间: 2024-06-13 16:30
+版本更新:
+1. 支持主驾座椅信号
+2. 优化信号log打印
+
+版本号: v1.7.22-alpha
+发布时间: 2024-06-12 17:03
+版本更新:
+支持副驾座椅信号
+
+版本号: v1.7.21-alpha
+发布时间: 2024-06-05 17:49
+版本更新:
+1. 优化ALHardKeyManager的log输出
+2. T1J项目新增请求AVM接口供CP使用
+3. T1P国际新增语言枚举值德语(10)、法语(11)
+
+版本号: v1.7.20-alpha
+发布时间: 2024-05-30 17:27
+版本更新:
+1. 新增系统重启接口systemReset
+2. 新增重置保养里程接口resetMaintenanceMileage
+
+版本号: v1.7.19-alpha
+发布时间: 2024-05-28 15:25
+版本更新:
+支持同时操作主副驾座椅的通风加热
+
+版本号: v1.7.18-alpha
+发布时间: 2024-05-28 11:42
+版本更新:
+增加获取当前是否处于屏保状态接口
+
+版本号: v1.7.17-alpha
+发布时间: 2024-05-24 16:08
+版本更新:
+新增FCM_10_SLAONOFFSts信号
+
+版本号: v1.7.16-alpha
+发布时间: 2024-05-23 16:18
+版本更新:
+1. 细化设置预约充电接口入参描述
+2. 新增中控设置车模颜色接口setCarModelColor
+3. 判断车身倾斜角变化超过0.01时打印log
+4. 修改从MCU侧上报时间制式枚举值含义
+
+版本号: v1.7.15-alpha
+发布时间: 2024-05-17 17:42
+版本更新:
+1. 增加对T1N国际项目紧急制动频闪信号的支持
+
+版本号: v1.7.14-alpha
+发布时间: 2024-05-16 09:26
+版本更新:
+1. 中控新增通知AVM三方窗口开关状态接口notifyAVMWindowsStatus
+2. 新增设置胎压单位接口setTyrePressureUnit
+3. 新增设置温度单位接口setTemperatureUnit
+4. 新增设置车速单位接口setSpeedUnit
+5. DVR信号接口
+6. 新增获取车速单位接口getSpeedUnit
+7. 新增获取胎压单位接口getTyreTemperatureUnit
+8. 新增获取温度接口getTemperatureUnit
+
+版本号: v1.7.13-alpha
+发布时间: 2024-05-08 19:26
+版本更新:
+1. T1L：新增意大利语枚举值为9
+2. T1L：新增获取时间制式接口getTimeFormat
+3. 新增恢复出厂设置接口notifyFactoryReset
+4. ALDiagManager增加解绑服务接口unbindService
+
+版本号: v1.7.12-alpha
+发布时间: 2024-4-26 13:34
+版本更新:
+1. T1L：新增设置驾驶模式接口setDriveMode入参类型为DriverModeType
+2. T1P: 兼容原有设置驾驶模式接口
+
+版本号: v1.7.11-alpha
+发布时间: 2024-4-25 15:24
+版本更新:
+1. diag匹配格式错误
+2. 新增车门未关闭AVM无法开启注册回调接口registerDoorOpenCallback
+3. 修改HardkeyManager中mContext获取方式
+4. T1L：新增设置X模式状态接口setXModeStatus
+5. T1P：变更设置驾驶模式接口setDriveMode入参类型为DriverModeType
+
+版本号: v1.7.10-alpha
+发布时间: 2024-4-19 16:43
+版本更新:
+1. 新增仪表主题设置选项注册回调接口registerClusterThemeCallback
+2. 新增设置仪表主题选项接口setThemeToCluster
+3. 新增获取仪表主题选项接口getClusterTheme
+4. 新增获取驾驶时长接口getFatigueDriveTime
+5. 新增获取超速报警速度getWarningSpeed
+6. 新增获取超速报警音量等级getWarningVolumeLevel
+
+版本号: v1.7.9-alpha
+发布时间: 2024-4-17 19:34
+版本更新:
+1. 提供DVR Wifi功能的接口
+2. 新增设置大气压接口setAirPressure
+3. 新增设置海拔接口setAltitude
+4. 增加对T1K项目1.2版车设srd新增信号的支持
+
+版本号: v1.7.8-alpha
+发布时间: 2024-4-10 18:55
+版本更新:
+1. 增加能耗曲线投屏状态监听回调接口registerEnergyCurveProjectionCallback
+2. 增加主动获取能耗曲线投屏状态接口getEnergyCurveProjectionStatus
+3. 新增副油箱电阻值接口
+
+版本号: v1.7.7-alpha
+发布时间: 2024-4-9 19:30
+版本更新:
+1. 增加ALDiagManager，通过ALManagerFactory获取
+2. 增加接口注册诊断监听registerIALDiagListener
+3. 增加解注册诊断监听unregisterIALDiagListener
+4. 增加从诊断服务读信息接口readInfoFromHal
+5. 增加向诊断服务写信息接口writeInfoToHal
+6. 新增屏幕开关接口
+
+版本号: v1.7.6-alpha
+发布时间: 2024-4-8 16:37
+版本更新:
+1、新增国际版Ecall静音接口
+2. 修改电动空调信号
+3. 修正驾驶模式枚举值问题
+4. 增加对室外温度反馈信号CEM_IPM_3_ExternalTemperatureRaw的支持
+5. 新增接口notifyClusterLanguageSetting
+
+版本号: v1.7.4-alpha
+发布时间: 2024-4-8 10:32
+版本更新:
+1、T1L: 新增中控通知仪表设置语言接口：notifyClusterLanguageSetting
+
+版本号: v1.7.3-alpha
+发布时间: 2024-3-22 16:30
+版本更新:
+1、T1L: 支持新增信号
+
+版本号: v1.7.2-alpha
+发布时间: 2024-3-21 11:30
+版本更新:
+1、T1J PHEV/T1P:新增近50公里平均百公里油/电耗接口：registerAvgFuCnsCallback/registerAvgElecCnsCallback
+
+版本号: v1.7.1-alpha
+发布时间: 2024-3-20 18:04
+版本更新:
+1、T1P:新增剩余油量显示接口:registerFuelVolumeDisplayCallback
+2、T1P:新增剩余油量采样接口:registerFuelVolumeSampleCallback
+3、T1P:新增续航里程计算值接口:registerDteCalculateValueCallback
+4、T1P:新增计算续航里程平均能耗接口:registerDteAFCValueCallback
+5、T1P:新增油箱类型接口:registerFuelTankTypeCallback
+6、T1P:新增过油状态接口:registerOverFillStateCallback
+7、T1P:新增加油事件触发状态接口:registerFuelAddEventCallback
+
+版本号: v1.7.0-alpha
+发布时间: 2024-2-29 14:30
+版本更新:
+1、优化sdk，使用父类实现死亡代理功能
+
+版本号: v1.6.17-alpha
+发布时间: 2024-3-12 9:45
+版本更新:
+1、T1J/T1P:新增500米平均电耗和油耗注册回调接口registerAvgElecCallback/registerAvgFuCallback
+
+版本号: v1.6.16-alpha
+发布时间: 2024-3-11 15:52
+版本更新:
+1、T1P_INT:新增瞬时油耗注册回调接口registerIFECallback,获取瞬间油耗接口getIFEValue
+2、T1P_INT:新增主/副油箱电阻值注册回调接口registerMainTankResistanceCallback/registerSubTankResistanceCallback，获取主/副油箱电阻接口getMainTankResistance/getSubTankResistance
+
+版本号: v1.6.15-alpha
+发布时间: 2024-3-6 17:52
+版本更新:
+1、T1P_INT:新增设置仪表主题接口setThemeMode
+
+版本号: v1.6.14-alpha
+发布时间: 2024-3-5 18:01
+版本更新:
+1、T1P_INT:新增保养剩余里程接口
+
+版本号: v1.6.13-alpha
+发布时间: 2024-3-5 11:41
+版本更新:
+1、T1L:新增主动获取燃油油量百分比接口getGaugeFuelPercent
+
+版本号: v1.6.12-alpha
+发布时间: 2024-3-4 10:12
+版本更新:
+1、T1J PHEV:新增主动获取充电信息接口getChargingInfo
+
+版本号: v1.6.11-alpha
+发布时间: 2024-2-29 10:30
+版本更新:
+1、T1P_INT/T1N_INT:TboxCallCommandManager新增监听拨打E/Bcall时中控的静音状态回调接口setINTMuteListener
+
+版本号: v1.6.10-alpha
+发布时间: 2024-2-28 17:46
+版本更新:
+1、T1J PHEV/T1P:新增充电功率/电压/电流注册回调接口registerChargingInfoCallback。
+
+版本号: v1.6.9-alpha
+发布时间: 2024-2-20 17:34
+版本更新:
+1、T1L:新增本次里程平均油耗/本次里程平均速度/百公里平均油耗/本次里程耗时注册回调及主动获取接口。
+
+版本号: v1.6.8-alpha
+发布时间: 2024-1-26 16:00
+版本更新:
+1、T1J PHEV/T1P:新增充电功率/电压/电流注册回调接口。
+
+版本号: v1.6.7-alpha
+发布时间: 2024-1-24 16:40
+版本更新:
+1、T1J PHEV/T1P:新增混动元素增强功能相关接口。
+
+版本号: v1.6.6-alpha
+发布时间: 2024-1-22 16:40
+版本更新:
+1、T1J/T1P:新增用于获取真实焦点状态的接口。
+
+版本号: v1.6.5-alpha
+发布时间: 2024-1-16 17:00
+版本更新:
+1、T1P：添加均衡器接口
+
+版本号: v1.6.4-alpha
+发布时间: 2024-1-12 21:06
+版本更新:
+1、T1P：新增T1P设置预约充电功能接口setScheduleChargingTime
+
+版本号: v1.6.3-alpha
+发布时间: 2024-1-12 15:10
+版本更新:
+1、T1J/T1P：hardkey给carplay增加监听按键按下和抬起的回调
+
+版本号: v1.6.2-alpha
+发布时间: 2024-1-12 11:00
+版本更新:
+1、T1J：新增AVM信号
+
+版本号: v1.6.1-alpha
+发布时间: 2024-1-10 14:01
+版本更新:
+1、T1P：新增T1P设置车道辅助功能接口setLaneAssistSetting
+
+版本号: v1.5.40-alpha
+发布时间: 2024-1-2 10:43
+版本更新:
+1、T1J/T1P：新增充电界面状态注册回调接口
+
+版本号: v1.5.39-alpha
+发布时间: 2023-12-26 17:29
+版本更新:
+1、T1P：新增前碰撞预警和灵敏度联动接口
+
+版本号: v1.5.38-alpha
+发布时间: 2023-12-25 11:35
+版本更新:
+1、T1J：新增AVMCameraStatus接口
+
+版本号: v1.5.37-alpha
+发布时间: 2023-12-18 10:30
+版本更新:
+1、T1P/T1J PHEV：新增纯电续航里程接口
+
+版本号: v1.5.36-alpha
+发布时间: 2023-12-08 15:30
+版本更新:
+1、T1P：添加对电动空调信号的支持
+
+版本号: v1.5.35-alpha
+发布时间: 2023-12-07 19:37
+版本更新:
+1、T1J PHEV:添加CLTC/WLTC接口:
+registerCltcOrWltcCallback(ICltcOrWltcCallback callback);
+unregisterCltcOrWltcCallback(ICltcOrWltcCallback callback);
+getCltcOrWltcMode();
+setCltcOrWltcMode(int mode);
+
+版本号: v1.5.34-alpha
+发布时间: 2023-12-05 17：00
+版本更新:
+1、T1P：添加EPS接口
+
+版本号: v1.5.33-alpha
+发布时间: 2023-12-04 16：40
+版本更新:
+1、T1J、T1P：增加取消升级接口
+
+版本号: v1.5.32-alpha
+发布时间: 2023-12-04 16：30
+版本更新:
+1、T1J：提供实验室接口接口
+
+版本号: v1.5.31-alpha
+发布时间: 2023-11-30 15：00
+版本更新:
+1、T1P：为Tbox信号添加接口
+
+版本号: v1.5.30-alpha
+发布时间: 2023-11-27 17：30
+版本更新:
+1、T1J：为Tbox信号添加接口
+
+版本号: v1.5.29-alpha
+发布时间: 2023-11-23 10：30
+版本更新:
+1、T1J、T1P：新增获取导航投屏状态getNaviProjectionStatus和导航投屏状态监听接口registerNaviProjectionStatusCallback
+2、T1J、T1P：新增获取AVM状态接口getAvmStatus
+
+版本号: v1.5.28-alpha
+发布时间: 2023-11-06 11：00
+版本更新:
+1、T1J、T1P：为智能电量添加接口
+
+版本号: v1.5.27-alpha
+发布时间: 2023-11-02 16：30
+版本更新:
+1、T1P：为充电时间添加接口
+
+版本号: v1.5.26-alpha
+发布时间: 2023-10-31 10：58
+版本更新:
+1、T1J、T1P：新增ALClusterInteractionManager的监听开机音乐播放状态接口registerBootMusicPlayStatusCallback&unregisterBootMusicPlayStatusCallback
+
+版本号: v1.5.25-alpha
+发布时间: 2023-10-23 15：00
+版本更新:
+1、T1J、T1P：新增ALMultiWindowManager的ServiceConnectionListener监听接口
+
+版本号: v1.5.24-alpha
+发布时间: 2023-10-22 13：00
+版本更新:
+1、T1P：为舒享模式添加接口
+
+版本号: v1.5.23-alpha
+发布时间: 2023-10-20 18：00
+版本更新:
+1、T1J、T1P：新增监听APP是否死亡的监听回调接口
+
+版本号: v1.5.22-alpha
+发布时间: 2023-10-20 12：00
+版本更新:
+1、T1J：新增设置日出日落时间接口setSunTime
+
+版本号: v1.5.21-alpha
+发布时间: 2023-10-19 20：00
+版本更新:
+1、T1J：支持CEM_IPM_3_ACMAXReq_Sts，BMSH_SOC，Parkingairconditioningstatus
+
+版本号: v1.5.20-alpha
+发布时间: 2023-10-18 19：48
+版本更新:
+1、T1J&T1P新增导航启动状态设置接口setNaviStartupStatus
+
+版本号: v1.5.19-alpha
+发布时间: 2023-10-10 22：00
+版本更新:
+1、T1P：支持弯道减速
+2、T1P：支持语音唤醒
+3、T1P：修改注释
+
+版本号: v1.5.18-alpha
+发布时间: 2023-10-10 16：30
+版本更新:
+1、T1J：适配ZDC信号
+
+版本号: v1.5.17-alpha
+发布时间: 2023-09-29 17：00
+版本更新:
+1、T1J:新增用于CarPlay/HiCar 使用的record 对应ecnr 链路建立规则
+
+版本号: v1.5.15-alpha
+发布时间: 2023-09-26 18：30
+版本更新:
+1、T1P：适配天窗
+2、T1P：适配PHEV的电压和电流信号
+
+版本号: v1.5.14-alpha
+发布时间: 2023-09-20 17：30
+版本更新:
+1、T1J：支持驻车空调
+2、T1J：支持展厅模式
+
+版本号: v1.5.13-alpha
+发布时间: 2023-09-19 17：18
+版本更新:
+1、T1J：新增数据埋点接口registerDiagDtcInfoListener
+
+版本号: v1.5.12-alpha
+发布时间: 2023-09-12 17：30
+版本更新:
+1、T1P：支持PHEV档位信号STAT_LeverModeDisp
+
+版本号: v1.5.11-alpha
+发布时间: 2023-09-07 18：00
+版本更新:
+1、T1P：支持车窗和天窗的反馈信号
+2、T1P：支持电压，电流和功率的反馈信号
+3、修改注释
+
+版本号: v1.5.10-alpha
+发布时间: 2023-09-07 15：00
+版本更新:
+1、增加左侧方控剩余按键keycode
+
+版本号: v1.5.9-alpha
+发布时间: 2023-09-06 18：00
+版本更新:
+1、T1J/T1P：提供接口获取TBOX_MUTE_PIN_STS
+
+版本号: v1.5.8-alpha
+发布时间: 2023-09-06 11：00
+版本更新:
+1、T1P：修改车道偏离预警开关的请求信号
+2、更新注释
+
+版本号: v1.5.7-alpha
+发布时间: 2023-09-02 20：00
+版本更新:
+1、补充空调，车设和PHEV接口
+2、更新注释
+
+版本号: v1.5.6-alpha
+发布时间: 2023-09-01 14：00
+版本更新:
+1、支持一键除气
+2、支持外置车牌号和按键音
+3、添加对CEM_3_UVC_WorkingBf和CEM_3_UVC_LuminanceBf的支持
+
+版本号: v1.5.5-alpha
+发布时间: 2023-08-29 16：00
+版本更新:
+1、支持获取轮胎压力报警信号
+
+版本号: v1.5.4-alpha
+发布时间: 2023-08-25 17：25
+版本更新:
+1、ALClusterInteractionManager添加AVM埋点回调接口registerAvmLogDataCallback
+
+版本号: v1.5.3-alpha
+发布时间: 2023-08-25 17：00
+版本更新:
+1、添加对电尾门信号的支持
+
+版本号: v1.5.2-alpha
+发布时间: 2023-08-22 16：30
+版本更新:
+1、添加对FCM_FRM_6_AEBMode的支持
+
+版本号: v1.5.1-alpha
+发布时间: 2023-08-22 15：30
+版本更新:
+1、添加对ABM_1_G_AirBagFailSts的支持
+
+版本号: v1.5.0-alpha
+发布时间: 2023-08-19 23：00
+版本更新:
+1、基于当前的t1p srd更新空调和车设接口
+
+版本号: v1.4.48-alpha
+发布时间: 2023-08-18 13：52
+版本更新:
+1、ALClusterInteractionManager修改获取差速锁状态接口getFrontTorqueLockStatus&getRearTorqueLockStatus
+
+版本号: v1.4.47-alpha
+发布时间: 2023-08-17 14：27
+版本更新:
+1、ALClusterInteractionManager新增获取差速锁状态接口getTorqueLockStatus
+
+版本号: v1.4.46-alpha
+发布时间: 2023-08-17 14：00
+版本更新:
+1、提供对电动吹风口信号的支持
+
+版本号: v1.4.45-alpha
+发布时间: 2023-08-15 21：00
+版本更新:
+1、添加轮胎信号的监听接口
+
+版本号: v1.4.44-alpha
+发布时间: 2023-08-12 18：00
+版本更新:
+1、添加剩余的phev信号
+
+版本号: v1.4.43-alpha
+发布时间: 2023-08-09 18：00
+版本更新:
+1、添加avm信号
+
+版本号: v1.4.42-alpha
+发布时间: 2023-08-09 14：30
+版本更新:
+1、优化log打印
+
+版本号: v1.4.41-alpha
+发布时间: 2023-08-07 21：30
+版本更新:
+1、添加对PHEV的信号支持
+
+版本号: v1.4.40-alpha
+发布时间: 2023-08-05 16：10
+版本更新:
+1、仪表交互 添加主动获取DMS摄像头状态接口getDmsCameraStatus()
+
+版本号: v1.4.39-alpha
+发布时间: 2023-08-03 14：06
+版本更新:
+1、电源管理服务新增进入和退出升级状态
+
+版本号: v1.4.38-alpha
+发布时间: 2023-08-03 10：45
+版本更新:
+1、仪表交互 添加T1P驾驶模式设置接口
+
+版本号: v1.4.37-alpha
+发布时间: 2023-08-02 19：30
+版本更新:
+1、添加方控的属性支持
+
+版本号: v1.4.36-alpha
+发布时间: 2023-08-02 17：24
+版本更新:
+1、仪表交互新增读取车速接口
+2、仪表交互SDK优化注册逻辑
+
+版本号: v1.4.35-alpha
+发布时间: 2023-08-02 16：40
+版本更新:
+1、ALClusterInteractionManager新增unbindService方法
+
+版本号: v1.4.34-alpha
+发布时间: 2023-08-02 10：10
+版本更新:
+1、仪表交互新增驾驶模式INVALID_VALUE枚举值
+
+版本号: v1.4.33-alpha
+发布时间: 2023-08-02 03：30
+版本更新:
+1、提供车速和转向角的专用回调接口
+
+版本号: v1.4.32-alpha
+发布时间: 2023-07-27 20：00
+版本更新:
+1、提供T1P ADAS等信号
+
+版本号: v1.4.31-alpha
+发布时间: 2023-07-22 15：50
+版本更新:
+1、仪表交互对应MCU侧SPI协议文档更新：越野巡航模式和XMode状态枚举更新
+
+版本号: v1.4.30-alpha
+发布时间: 2023-07-22 13：50
+版本更新:
+1、Tbox的V1.8协议变更，TboxCallCommandManager重载回调注册接口setListener(CallCommandV18Listener)
+
+版本号: v1.4.29-alpha
+发布时间: 2023-07-20 20：50
+版本更新:
+1、TboxFaultCommandManager增加通知应用tbox断开的回调
+
+版本号: v1.4.28-alpha
+发布时间: 2023-07-19 15：02
+版本更新:
+1、修改仪表交互车速回调接口车速值类型由int->float
+
+版本号: v1.4.27-alpha
+发布时间: 2023-07-18 14：30
+版本更新:
+1、添加获取香氛盒类型的属性
+
+版本号: v1.4.26-alpha
+发布时间: 2023-07-18 10：40
+版本更新:
+1、仪表交互新增车速上报回调注册接口registerGaugeSpeedCallback
+
+版本号: v1.4.25-alpha
+发布时间: 2023-07-17 16：50
+版本更新:
+1、TboxManager增加死亡代理
+
+版本号: v1.4.24-alpha
+发布时间: 2023-07-17 14：00
+版本更新:
+1、添加对三个DMS信号的支持
+
+版本号: v1.4.23-alpha
+发布时间: 2023-07-13 16：49
+版本更新:
+1、仪表交互新增仪表显示左侧Warning,让导航显示TBT通知IVI接口registerLeftSideWarningCallback
+
+版本号: v1.4.22-alpha
+发布时间: 2023-07-13 13：41
+版本更新:
+1、增加ALPowerManager服务连接成功回调
+
+版本号: v1.4.21-alpha
+发布时间: 2023-07-11 20：36
+版本更新:
+1、仪表交互新增仪表回调中控播放按键音回调注册和解注册接口registerKeytoneCallback&unregisterKeytoneCallback
+
+版本号: v1.4.20-alpha
+发布时间: 2023-07-07 16：54
+版本更新:
+1、修改注册回调时机，防止App过早启动
+
+版本号: v1.4.19-alpha
+发布时间: 2023-07-07 16：54
+版本更新:
+1、新增获取CCO模式状态及CCO状态改变回调接口
+
+版本号: v1.4.18-alpha
+发布时间: 2023-07-07 13：54
+版本更新:
+1、新增获取车轮胎温及车轮胎温变化回调接口
+
+版本号: v1.4.17-alpha
+发布时间: 2023-07-07 13：10
+版本更新:
+1、新增ALManagerFactory.getManager接口,入参添加服务绑定回调listener,以确保APP调用时服务已连接
+
+版本号: v1.4.16-alpha
+发布时间: 2023-07-06 10：17
+版本更新:
+1、新增设置白天/黑夜模式接口
+
+版本号: v1.4.15-alpha
+发布时间: 2023-07-04 20：00
+版本更新:
+1、添加转向角信号的读写
+2、添加驾驶模式和保电模式的属性定义
+
+版本号: v1.4.14-alpha
+发布时间: 2023-06-30 15：38
+版本更新:
+1、仪表交互新增车轮角度回调接口
+
+版本号: v1.4.13-alpha
+发布时间: 2023-06-30 15：32
+版本更新:
+1、仪表交互新增发送俯仰角到MCU接口
+
+版本号: v1.4.12-alpha
+发布时间: 2023-06-30 12：00
+版本更新:
+1、添加pm2.5接口
+
+版本号: v1.4.11-alpha
+发布时间: 2023-06-29 12：00
+版本更新:
+1、修复副驾座椅记忆属性的问题
+
+版本号: v1.4.10-alpha
+发布时间: 2023-06-28 22：00
+版本更新:
+1、提供新的钥匙状态属性
+
+版本号: v1.4.9-alpha
+发布时间: 2023-06-28 18：35
+版本更新:
+1、修改注册tbox服务成功接口的逻辑
+
+版本号: v1.4.8-alpha
+发布时间: 2023-06-27 18：57
+版本更新:
+1、仪表交互新增onAvmClosedBySpeed & onApaClosedBySpeed回调接口
+
+版本号: v1.4.7-alpha
+发布时间: 2023-06-27 18：07
+版本更新:Audio
+1.对应雷石KTV模式开启关闭
+
+版本号: v1.4.6-alpha
+发布时间: 2023-06-26 19：06
+版本更新:
+1、仪表交互新增雷达报警音状态回调注册和解注册接口
+
+版本号: v1.4.5-alpha
+发布时间: 2023-06-26 10：06
+版本更新:
+1、仪表交互新增中控通知仪表车牌号接口setCarPlateNumber
+
+版本号: v1.4.4-alpha
+发布时间: 2023-06-25 10：39
+版本更新:
+1、仪表交互修改TorqueLockStatus枚举值
+
+版本号: v1.4.3-alpha
+发布时间: 2023-06-23 18：01
+版本更新:
+1、仪表交互修改ALOmsManager中OmsStatus枚举值
+
+版本号: v1.4.2-alpha
+发布时间: 2023-06-23 18：00
+版本更新:
+1、提供多车窗控制接口
+
+版本号: v1.4.1-alpha
+发布时间: 2023-06-23 10：32
+版本更新:
+1、ALMultiWindowManager增加高德地图三指滑屏事件回调
+
+版本号: v1.4.0-alpha
+发布时间: 2023-06-20 18：02
+版本更新:
+1. 启动动态sdk功能
+
+版本号: v1.3.26-alpha
+发布时间: 2023-06-20 18：02
+版本更新:
+1、仪表交互新增注册及解注册后视镜状态回调接口registerRearviewMirrorStatusCallback&unregisterRearviewMirrorStatusCallback
+2、仪表交互新增燃油量百分比回调接口onGaugeFuelPercentChanged
+
+版本号: v1.3.25-alpha
+发布时间: 2023-06-19 21：24
+版本更新:
+1、仪表交互模块剥离DMS与OMS业务逻辑
+2、仪表交互修改获取SOC版本号乱码问题
+
+版本号: v1.3.24-alpha
+发布时间: 2023-06-19 20：06
+版本更新:
+1.增加新增监听服务是否连接的接口registerOTAServiceConnectedListener&unregisterOTAServiceConnectedListener
+
+版本号: v1.3.23-alpha
+发布时间: 2023-06-16 21：06
+版本更新:
+1.仪表交互模块新增TorqueLockStatus枚举值：前轴无效状态和后轴无效状态
+
+版本号: v1.3.22-alpha
+发布时间: 2023-06-16 17：00
+版本更新:
+1、修改TboxFotaStateDisplayInfo里的ackCode数据类型为int
+
+版本号: v1.3.21-alpha
+发布时间: 2023-06-13 21：00
+版本更新:
+1.对TboxFotaUserComfirm里的sessionId字段判空，防止空指针异常
+
+版本号: v1.3.20-alpha
+发布时间: 2023-06-12 20:12
+版本更新:
+1.增加APA、AVM、STR状态相关接口
+
+版本号: v1.3.19-alpha
+发布时间: 2023-06-12 17:52
+版本更新:
+1.增加ALMultiWindowManager获取左侧卡片栏是否可见接口
+
+版本号: v1.3.18-alpha
+发布时间: 2023-06-12 17:29
+版本更新:
+1.添加ALPowerManager ThemeMode AUTO_MODE 模式
+
+版本号: v1.3.17-alpha
+发布时间: 2023-06-10 15:18
+版本更新:Audio
+1.添加createAudioPatch 专用于Ecall/Bcall
+
+版本号: v1.3.16-alpha
+发布时间: 2023-06-09 23:45
+版本更新:
+1.添加车窗控制接口
+2.添加香氛控制接口
+3.添加紫外线杀菌接口
+
+版本号: v1.3.15-alpha
+发布时间: 2023-06-08 22:40
+版本更新:Audio  engineermode
+1.修复声场模式获取问题
+2.修复工程模式mic收音问题
+
+
+版本号: v1.3.14-alpha
+发布时间: 2023-06-08 18:18
+版本更新:
+1.仪表交互：新增getXModeDisplayStatus接口
+
+版本号: v1.3.13-alpha
+发布时间: 2023-06-08 14:41
+版本更新:
+1.仪表交互：新增registerXModeDisplayStatusCallback和unregisterXModeDisplayStatusCallback接口
+
+版本号: v1.3.12-alpha
+发布时间: 2023-06-07 21:10
+版本更新:
+1、TboxManager新增监听服务是否连接的接口registerTboxServiceConnectedListener&unregisterTboxServiceConnectedListener
+
+版本号: v1.3.11-alpha
+发布时间: 2023-06-07 20:00
+版本更新:
+1.添加dvr的紧急制动
+2.修改安全气囊逻辑
+3.添加无线充电注释
+
+版本号: v1.3.10-alpha
+发布时间: 2023-06-07 10:17
+版本更新:
+1.仪表交互：新增appBootCompleted接口,cameraStatusResp接口新增启动对象参数
+
+版本号: v1.3.9-alpha
+发布时间: 2023-06-06 21:00
+版本更新:
+1.支持PHEV和灯光秀的接口
+
+版本号: v1.3.8-alpha
+发布时间: 2023-06-06 15:16
+版本更新:audio
+1.修改音场设置注释问题
+2.增加音量设置设置UI显示flag
+
+
+版本号: v1.3.7-alpha
+发布时间: 2023-06-03 17:05
+版本更新:
+1、仪表交互--新增registerNaviInfoStatusListener&unregisterNaviInfoStatusListener接口
+
+版本号: v1.3.6-alpha
+发布时间: 2023-06-02 10:25
+版本更新:
+1、仪表交互--新增导航信息状态设置、导航窗口大小设置接口
+2、仪表交互--新增设置DMS用户开关接口
+3、仪表交互--变更用户注册和登录FaceID接口参数，由status改为timeout
+4、仪表交互--新增DMS驾驶员动作等级、分心检测等级、疲劳检测等级接口
+5、仪表交互--删除疲劳检测开关、疲劳报警时间、设置活动车速、分心检测开关、设置驾驶员动作开关状态、设置驾驶员动作报警接口
+
+版本号: v1.3.5-alpha
+发布时间: 2023-06-01 16:35
+版本更新:audio
+1.增加音乐律动开关控制回调。修改回调速率
+
+版本号: v1.3.4-alpha
+发布时间: 2023-05-31 18:20
+版本更新:
+1、支持行车记录仪和无线充电信号
+
+版本号: v1.3.3-alpha
+发布时间: 2023-05-30 16:20
+版本更新:
+1、仪表交互 新增获取DriveMode和续航里程接口
+
+版本号: v1.3.2-alpha
+发布时间: 2023-05-30 15:30
+版本更新:
+1、disconnectTboxService
+
+版本号: v1.3.1-alpha
+发布时间: 2023-05-29 15:49
+版本更新:
+1、仪表交互 新增CCO Fan状态设置接口
+
+版本号: v1.3.0-alpha
+发布时间: 2023-05-29 15:04
+版本更新:
+1.525功能完成.
+
+版本号: v1.2.47-alpha
+发布时间: 2023-05-29 11:50
+版本更新：
+1、仪表交互 新增DMS Face状态回调接口
+2、DMS&OMS摄像头状态值变更
+
+版本号: v1.2.46-alpha
+发布时间: 2023-05-29 10:25
+版本更新：
+1、修改IHardKeyCallback接口回调参数，keyEvent改成keyCode和action
+
+版本号: v1.2.45-alpha
+发布时间: 2023-05-27 15:00
+版本更新：
+1.为AudioService提供均衡器设置的接口
+
+版本号: v1.2.44-alpha
+发布时间: 2023-05-27 14:16
+版本更新：
+1.删除100毫秒的音岁律动回调，最低200毫秒
+
+版本号: v1.2.43-alpha
+发布时间: 2023-05-27 11:00
+版本更新：
+1.提供香氛剩余量接口
+
+版本号: v1.2.42-alpha
+发布时间: 2023-05-26 20:00
+版本更新：
+1.修改注释
+2.提供设防信号的接口
+
+版本号: v1.2.41-alpha
+发布时间: 2023-05-26 12:00
+版本更新：
+1、修改TboxFotaUserComfirmInfo的preconditionList类型为byte[]
+
+版本号: v1.2.40-alpha
+发布时间: 2023-05-25 16:48
+版本更新：Audio
+1.增加用于音乐律动回调接口  
+2.增加设置音乐律动回调速度接口
+
+
+版本号: v1.2.39-alpha
+发布时间: 2023-05-25 20:30
+版本更新：
+1.根据srd移除对如下信号的支持
+SET_DriverSeat_FR
+SET_DriverSeat_BackFR
+SET_DriverSeat_FrontendUD
+SET_DriverSeat_RearendUD
+SET_DriverLumbart_FR
+SET_DriverLumbart_UD
+SET_PassengerSeat_FR
+RBCM_PassengerSeat_FRSts
+SET_PassengerSeat_BackFR
+RBCM_PassengerSeat_BackFRSts
+SET_PassengerSeat_LegUD
+RBCM_PassengerSeat_LegUDSts
+RBCM__Psngrseat_location
+
+版本号: v1.2.38-alpha
+发布时间: 2023-05-25 16:30
+版本更新：
+1.修改信号CEM_UVC_LuminanceBf的注释
+
+版本号: v1.2.37-alpha
+发布时间: 2023-05-24 18:00
+版本更新：
+1.提供档位信号的支持
+2.修改Power属性的定义和注释
+3.修改信号CEM_2_RemoteLockFeedbackSts的注释
+
+版本号: v1.2.36-alpha
+发布时间: 2023-05-24 11:55
+版本更新：
+1.ClusterInteraction新增DMS和OMS摄像头状态默认值
+
+版本号: v1.2.35-alpha
+发布时间: 2023-05-23 17:55
+版本更新：
+1.修改IUpgradeCallback onStatusUpdate入参升级百分比由float类型为int类型
+
+版本号: v1.2.34-alpha
+发布时间: 2023-05-23 17:48
+版本更新：
+ALMultiWindowManager新增onDown接口，删除多余接口
+
+版本号: v1.2.33-alpha
+发布时间: 2023-05-23 16:48
+版本更新：Audio
+1.修改beep音注释错误  1：open  0:close
+
+版本号: v1.2.32-alpha
+发布时间: 2023-05-23 12:00
+版本更新：
+1. 提供空调主驾温度和空调副驾温度的新属性，支持浮点型数据的上行信号
+2. 锁车自动折叠和折叠展开的下行信号基于srd进行修改
+3. 提供智能场景的信号支持
+
+版本号: v1.2.31-alpha
+发布时间: 2023-05-23 11:30
+版本更新：
+1、TboxFotaStateDisplayInfo增加字段preconditionList
+2、修改PKI接口CertificateStatusResponse的入参类型为int
+
+版本号: v1.2.30-alpha
+发布时间: 2023-05-22 15:20
+版本更新：
+1、修改TboxOtaSubNodeInfo and TboxUsbSubNodeEnterFactoryInfo里的checkSumCode的数据类型为String
+
+版本号: v1.2.29-alpha
+发布时间: 2023-05-22 11:33
+版本更新：
+1. ALClusterInteractionManager的registerFaceIdReq接口增加index参数,新增setActivationLicense接口
+2. ALDmsManager.ALDmsDataListener新增activationLicenseResp接口
+3. ALDmsManager.ALDmsDataListener删除cameraErrorResp接口，新增cameraStatusResp接口
+
+版本号: v1.2.28-alpha
+发布时间: 2023-05-20 16:30
+版本更新：
+1. 支持PM2.5等级
+2. 移除驾驶模式和X模式的接口说明
+3. 修复回调时AVM信号没有映射的问题
+
+版本号: v1.2.27-alpha
+发布时间: 2023-05-20 11:58
+版本更新：
+1、修改tbox ota接口的数据结构
+2、增加tbox 错误码上报接口回调
+3、增加tbox 远程控制接口
+
+版本号: v1.2.26-alpha
+发布时间: 2023-05-20 11:30
+版本更新：
+1. 支持360,AVM开启/关闭请求反馈和小灯信号的状态的获取和监听
+
+版本号: v1.2.25-alpha
+发布时间: 2023-05-19 17:45
+版本更新：
+1. 支持APA开启/关闭请求
+
+版本号: v1.2.24-alpha
+发布时间: 2023-05-18 15:45
+版本更新：
+1. ALClusterInteractionManager解决容器未初始化问题
+
+版本号: v1.2.24-alpha
+发布时间: 2023-05-18 13:45
+版本更新：
+1. ALDmsManager增加服务连接成功和断联的回调
+2. ALPowerManager修改ThemeMode的值
+
+版本号: v1.2.23-alpha
+发布时间: 2023-05-18 11:45
+版本更新：
+1、ALUpdateManager增加请求升级结果接口，修改OTA升级和USB升级接口入参为Bundle
+2、变更IALUpdateService为IUpgradeService,并新增requestUpgradeResult接口
+3、变更IALUpdateCallback为IUpgradeCallback
+
+版本号: v1.2.22-alpha
+发布时间: 2023-05-18 11:30
+版本更新：
+ALAudioManager 
+1.封装用用于监听引音量变化的callback
+
+版本号: v1.2.21-alpha
+发布时间: 2023-05-17 13:30
+版本更新：
+ALPowerManager增加电源模式和电压状态监听接口
+
+版本号: v1.2.20-alpha
+发布时间: 2023-05-17 11:30
+版本更新：
+ALClusterInteractionManager恢复驾驶模式接口
+
+版本号: v1.2.19-alpha
+发布时间: 2023-05-16 16:30
+版本更新：ALMiscManager
+1.获取车辆型号
+
+版本号: v1.2.18-alpha
+发布时间: 2023-05-16 14:48
+版本更新：
+1、新增tbox2中TboxPKIManager，对上层提供证书灌装相关接口
+2、新增IPKI.aidl和IPKICallback.aidl
+
+版本号: v1.2.17-alpha
+发布时间: 2023-05-15 09:39
+版本更新：
+1、IHardKeyCallback中修改回调接口为onKeyEvent，删除onKeyPressed，onKeyReleased
+2、IHardKeyService中增加processHardKeyEvent
+3、ALHardKeyManager中修改对上层的回调接口为onKeyEventCallback，删除onKeyPressedCallback，onKeyReleasedCallback
+
+版本号: v1.2.16-alpha
+发布时间: 2023-05-11 11:36
+版本更新：
+1. 新增获取所有数据类型的车设信号的回调接口
+
+版本号: v1.2.15-alpha
+发布时间: 2023-05-10 18:16
+版本更新：
+1. 更新注释，释放隐藏接口 （静音、音场设置、默认音量、重置音量）
+
+
+版本号: v1.2.14-alpha
+发布时间: 2023-05-09 18:20
+版本更新：
+1. ClusterInteraction中修改驾驶模式对应的值
+2. ClusterInteraction中新增续航里程监听
+3. ClusterInteraction中新增Display温度过高监听
+4. ClusterInteraction中新增开机动画完毕接口
+
+版本号: v1.2.13-alpha
+发布时间: 2023-05-08 20:30
+版本更新：
+1. 新增FDR接口
+
+版本号: v1.2.12-alpha
+发布时间: 2023-05-08 18:00
+版本更新：
+1. 新增通过VIN码获取deviceID接口
+
+版本号: v1.2.11-alpha
+发布时间: 2023-05-08 14:00
+版本更新：
+1. 新增Miscservice  
+2. 新增获取VIN接口
+
+版本号: v1.2.10-alpha
+发布时间: 2023-05-07 21:00
+版本更新：
+1. 添加接口getFloatVehicleControlProp获取胎温和胎压
+2. 提供外后视镜折叠展开和涉水雷达距离的上行信号的支持
+3. 因为srd的变更移除天窗开关，红绿灯识别和车道偏离预警报警模式的部分注释
+4. 添加PM2.5数值等级的定义
+
+版本号: v1.2.9-alpha
+发布时间: 2023-05-06 16:45
+版本更新：
+1. ClusterInteraction中新增DMS、OMS摄像头错误接口
+2. ClusterInteraction中新增DMS设置接口
+3. ClusterInteraction中新增DMS开机之后回复FaceIdStatus
+
+版本号: v1.2.8-alpha
+发布时间: 2023-05-05 16:45
+版本更新：
+1. ClusterInteraction中修改后视镜更新接口名称为updateRearViewKeyStatus;
+2. ClusterInteraction中新增差速锁接口
+
+版本号: v1.2.7-alpha
+发布时间: 2023-05-05 10:56
+版本更新：
+1. 添加重置音量设置值的接口
+
+版本号: v1.2.6-alpha
+发布时间: 2023-05-04 14:47
+版本更新：
+1. 添加ClusterInteraction中，驾驶模式接口，油表单位接口，硬按键接口
+
+版本号: v1.2.5-alpha
+发布时间: 2023-04-28 17:30
+版本更新：
+1. 添加Update相关接口
+
+版本号: v1.2.4-alpha
+发布时间: 2023-04-28 14:37
+版本更新：
+1. 添加TBOX的网络状态接口
+
+版本号: v1.2.3-alpha
+发布时间: 2023-04-27 22:13
+版本更新：
+1. 添加TBOX 2.0接口
+
+版本号: v1.2.2-alpha
+发布时间: 2023-04-27 20:31
+版本更新：
+1. 添加AVM接口
+
+版本号: v1.2.1-alpha
+发布时间: 2023-04-27 16:45
+版本更新：
+1. hardkey 注册回调接口
+
+版本号: v1.2.0-alpha
+发布时间: 2023-04-23 15:04
+版本更新:
+1.425功能完成
+
+版本号: v1.1.13-alpha
+发布时间: 2023-04-23 15:04
+版本更新:
+1.添加ClusterInteraction相关接口
+
+版本号: v1.1.12-alpha
+发布时间: 2023-04-25 14:45
+版本更新:
+1.提供设置AVM状态的接口
+2.提供Power模块依赖的接口
+
+版本号: v1.1.11-alpha
+发布时间: 2023-04-20 14:33
+版本更新:
+1.支持如下信号
+    IHU_9_ISSFctCmd
+    ISS_Switch_Sts
+
+版本号: v1.1.10-alpha
+发布时间: 2023-04-19 19:34
+版本更新:
+1.为如下信号添加信号值对应的开关行为
+    IHU_5_FrontOFF_Req
+    CEM_IPM_FrontOFFSts
+    IHU_5_ACRequestCommand
+    SET_IHU_ACMAXReq
+    CEM_IPM_3_ACMAXReq_Sts
+    IHU_5_AutoState
+    CEM_IPM_FrontAutoACSts
+    IHU_5_SyncSwtich_Req
+    CEM_IPM_SyncSts
+    IHU_5_AnionPurify_Req
+    CEM_IPM_AnionPurify
+    IHU_DVD_SET_BT_Reduce_Wind_Speed
+    IHU_1_DVD_SET_IPM_First_Blowing
+    SET_IPM_Automatic_Ventilation
+    IHU_9_Cooling_Req
+
+版本号: v1.1.9-alpha
+发布时间: 2023-04-17 14:56
+版本更新:
+1.新增对车辆设置模块中主驾座椅，副驾座椅，方向盘和车外灯功能的支持
+
+版本号: v1.1.8-alpha
+发布时间: 2023-04-14 15:38
+版本更新:
+1.新增屏保时间类型——设置中进入屏保
+
+版本号: v1.1.7-alpha
+发布时间: 2023-04-13 09:56
+版本更新:
+1.新增音乐律动功能接口
+2.新增AlAudioservice初始接口
+
+版本号: v1.1.6-alpha
+发布时间: 2023-04-04 09:55
+版本更新:
+1.新增外置功放声场设置接口
+2.新增SONY音效打开关闭接口
+3.新增响度开关。
+
+版本号: v1.1.5-alpha
+发布时间: 2023-04-03 19:32
+版本更新:
+1.hardkey接口出版
+2.Tbox接口出版
+
+版本号: v1.1.4-alpha
+发布时间: 2023-03-30 19:32
+版本更新:
+1.新增声浪音开关接口
+
+版本号: v1.1.3-alpha
+发布时间: 2023-03-29 10:00
+版本更新:
+1.新增雷达报警音设置接口
+2.新增beep音开关接口
+
+版本号: v1.1.2-alpha
+发布时间: 2023-03-28 10:00
+版本更新:
+1.修复getEqualizerPresetName 调用失败问题
+2.修复getEffectMode 调用失败问题
+3.新增EffectMode与DTS音效设置的回调监听
+
+版本号: v1.1.1-alpha
+发布时间: 2023-03-27 09:41
+版本更新:
+1.增加空调和ADAS
+2.完善接口和prop_id描述
+
+版本号: v1.0.4-alpha
+发布时间: 2023-03-24 17:47
+版本更新:
+1.修复Fade/balance 引用错误;
+2.新增speedVolume 设置参数;
+
+版本号: v1.0.3-alpha
+发布时间: 2023-03-23 16:30
+版本更新:
+1.删除androidx的引用;
+
+版本号: v1.0.2-alpha
+发布时间: 2023-03-02 17:36
+版本更新:
+1. 新增多窗口ALMultiWindowManager接口;
+2. 新增编译依赖, 如ALActivity等;
+3. 新增ALCarManager接口;
+4. 新增ALAudioManager接口.
+
+版本号: v1.0.1-alpha
+发布时间: 2023-02-14 10:43
+版本更新:
+1. 新增ALPowerManager接口

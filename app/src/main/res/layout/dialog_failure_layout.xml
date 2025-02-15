@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:tag="layout/dialog_failure_layout_0"
+    android:background="@color/color_03"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="@dimen/dp120"
+        android:layout_height="@dimen/dp104"
+        android:layout_marginTop="@dimen/dp75"
+        android:src="@drawable/warning"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:textSize="@dimen/sp32"
+        android:textColor="#ffffff"
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp56"
+        android:text="@string/copy_writing_01"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/icon"/>
+    <TextView
+        android:textSize="@dimen/sp28"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:id="@+id/cancel"
+        android:background="@drawable/video_cancel_bt_bg_shape"
+        android:layout_width="@dimen/dp400"
+        android:layout_height="@dimen/dp80"
+        android:layout_marginTop="@dimen/dp120"
+        android:layout_marginBottom="@dimen/dp56"
+        android:text="@string/copy_writing_02"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:height="160dp"
+    android:width="160dp"
+    android:viewportWidth="160"
+    android:viewportHeight="160">
+    <path
+        android:fillColor="@drawable/_altitude_bg__0_res_0x7f080000"
+        android:pathData="M80,80m-79,0a79,79 0,1 1,158 0a79,79 0,1 1,-158 0"
+        android:strokeColor="@drawable/_altitude_bg__1_res_0x7f080001"
+        android:strokeWidth="2"
+        android:fillType="evenOdd"/>
+</vector>

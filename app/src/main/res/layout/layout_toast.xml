@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <FrameLayout
+        android:id="@+id/flContent"
+        android:background="@drawable/shape_toast_bg_radius12"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dp112"
+        android:paddingStart="@dimen/dp100"
+        android:paddingEnd="@dimen/dp100">
+        <TextView
+            android:textSize="@dimen/sp28"
+            android:textColor="@color/colorText"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:id="@+id/tvContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="@dimen/dp12"/>
+    </FrameLayout>
+</FrameLayout>
